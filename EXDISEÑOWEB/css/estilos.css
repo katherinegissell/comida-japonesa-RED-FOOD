@@ -1,0 +1,495 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+
+
+
+body{
+background-image:url(../imagenes/cerezo.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment:fixed;
+}
+
+
+nav ul{
+	background-color:#63B4B8;
+	width:100%;
+	list-style-type:none;
+	text-align:center;
+	position:fixed;
+	z-index:1000;
+	top:70px;
+	
+}
+
+
+
+nav li{
+	display:inline-flex;
+	background-attachment:fixed;
+}
+
+nav a{
+	text-decoration:none;
+	color:white;
+	padding:10px;
+	width:150px;
+	font-size:20px;
+}	
+
+nav li:hover{
+	background-color:#DD4A48;
+}
+
+h1{
+	text-align:center;
+	background-color:#DD4A48;
+	color:white;
+	padding:20px;
+	position:fixed;
+	z-index:1000;
+	top:0;
+	width:100%;
+	
+}
+
+img{
+	width:400px;
+	
+}
+
+h2{
+	text-align: center;
+
+}
+
+img{
+	text-align: center;
+	display:block;
+	margin:0px auto;
+	width:400px;
+}
+
+/*................................*/
+
+.card{
+	width:330px;
+	height:400px;
+	border-radius: 8px;
+	box-shadow:0 2px 2px #FC4919;
+	overflow:hidden;
+	text-align:center;
+	transition:all 0.25s;
+	text-align: center;
+	display: block;
+	margin: 0px auto;
+	background-color:#F9ECE7;
+}
+
+.cardA{
+	width:330px;
+	height:400px;
+	border-radius: 8px;
+	box-shadow:0 2px 2px #FC4919;
+	overflow:hidden;
+	text-align:center;
+	transition:all 0.25s;
+	text-align: center;
+	display: block;
+	margin: 0px auto;
+	background-color:#F9ECE7;	
+}
+
+.cardB{
+	width:330px;
+	height:400px;
+	border-radius: 8px;
+	box-shadow:0 2px 2px #FC4919;
+	overflow:hidden;
+	text-align:center;
+	transition:all 0.25s;
+	text-align: center;
+	display: block;
+	margin: 0px auto;
+	background-color:#F9ECE7;	
+}
+
+.cardC{
+	width:330px;
+	height:400px;
+	border-radius: 8px;
+	box-shadow:0 2px 2px #FC4919;
+	overflow:hidden;
+	text-align:center;
+	transition:all 0.25s;
+	text-align: center;
+	display: block;
+	margin: 0px auto;
+	background-color:#F9ECE7;	
+}
+
+.cardD{
+	width:330px;
+	height:400px;
+	border-radius: 8px;
+	box-shadow:0 2px 2px #FC4919;
+	overflow:hidden;
+	text-align:center;
+	transition:all 0.25s;
+	text-align: center;
+	display: block;
+	margin: 0px auto;
+	background-color:#F9ECE7;	
+}
+
+
+
+
+/*................................*/
+
+
+
+.card:hover{
+	transform:translateY(-15px);
+	box-shadow:0 12px 16px #FC4919;
+}
+
+.cardA:hover{
+	transform:translateY(-15px);
+	box-shadow:0 12px 16px #FC4919;
+}
+
+.cardB:hover{
+	transform:translateY(-15px);
+	box-shadow:0 12px 16px #FC4919;
+}
+
+.cardC:hover{
+	transform:translateY(-15px);
+	box-shadow:0 12px 16px #FC4919;
+}
+
+.cardD:hover{
+	transform:translateY(-15px);
+	box-shadow:0 12px 16px #FC4919;
+}
+
+
+
+/*.................................*/
+
+.card img{
+	width:330px;
+	height:220px;
+}
+
+.cardA img{
+	width:330px;
+	height:220px;
+}
+
+.cardB img{
+	width:330px;
+	height:220px;
+}
+
+.cardC img{
+	width:330px;
+	height:220px;
+}
+
+
+.cardD img{
+	width:330px;
+	height:220px;
+}
+
+
+
+
+
+/*................................*/
+
+.card p{
+	font-size:20px;
+	font-weight:300;
+	padding:5px;
+}
+
+.cardA p{
+	font-size:20px;
+	font-weight:300;
+	padding:5px;
+}
+
+.cardB p{
+	font-size:20px;
+	font-weight:300;
+	padding:5px;
+}
+
+.cardC p{
+	font-size:20px;
+	font-weight:300;
+	padding:5px;
+}
+
+.cardD p{
+	font-size:20px;
+	font-weight:300;
+	padding:5px;
+}
+
+
+/*...............................*/
+
+.ENSALADA{
+	color:white;
+	margin:20px;
+	top:150px;
+	position:relative;
+	font-size:40px;
+}
+
+
+
+.card,.cardA, .cardB{
+	display:inline-flex;
+	margin:25px;
+	position:relative;
+	left:100px;
+	top:200px;
+
+}
+
+.cardC, .cardD{
+	display:inline-flex;
+	margin:25px;
+	position:relative;
+	left:100px;
+	top:250px;
+}
+
+
+
+
+/*....................SOPAS...............................*/
+
+
+.card1{
+	width:330px;
+	height:400px;
+	border-radius: 8px;
+	box-shadow:0 2px 2px #FC4919;
+	overflow:hidden;
+	text-align:center;
+	transition:all 0.25s;
+	text-align: center;
+	display: block;
+	margin: 0px auto;
+	background-color:#F9ECE7;
+}
+
+.card2{
+	width:330px;
+	height:400px;
+	border-radius: 8px;
+	box-shadow:0 2px 2px #FC4919;
+	overflow:hidden;
+	text-align:center;
+	transition:all 0.25s;
+	text-align: center;
+	display: block;
+	margin: 0px auto;
+	background-color:#F9ECE7;	
+}
+
+.card3{
+	width:330px;
+	height:400px;
+	border-radius: 8px;
+	box-shadow:0 2px 2px #FC4919;
+	overflow:hidden;
+	text-align:center;
+	transition:all 0.25s;
+	text-align: center;
+	display: block;
+	margin: 0px auto;
+	background-color:#F9ECE7;	
+}
+
+.card4{
+	width:330px;
+	height:400px;
+	border-radius: 8px;
+	box-shadow:0 2px 2px #FC4919;
+	overflow:hidden;
+	text-align:center;
+	transition:all 0.25s;
+	text-align: center;
+	display: block;
+	margin: 0px auto;
+	background-color:#F9ECE7;	
+}
+
+.card5{
+	width:330px;
+	height:400px;
+	border-radius: 8px;
+	box-shadow:0 2px 2px #FC4919;
+	overflow:hidden;
+	text-align:center;
+	transition:all 0.25s;
+	text-align: center;
+	display: block;
+	margin: 0px auto;
+	background-color:#F9ECE7;	
+}
+
+
+
+
+/*................................*/
+
+
+
+.card1:hover{
+	transform:translateY(-15px);
+	box-shadow:0 12px 16px #FC4919;
+}
+
+.card2:hover{
+	transform:translateY(-15px);
+	box-shadow:0 12px 16px #FC4919;
+}
+
+.card3:hover{
+	transform:translateY(-15px);
+	box-shadow:0 12px 16px #FC4919;
+}
+
+.card4:hover{
+	transform:translateY(-15px);
+	box-shadow:0 12px 16px #FC4919;
+}
+
+.card5:hover{
+	transform:translateY(-15px);
+	box-shadow:0 12px 16px #FC4919;
+}
+
+
+
+/*.................................*/
+
+.card1 img{
+	width:330px;
+	height:220px;
+}
+
+.card2 img{
+	width:330px;
+	height:220px;
+}
+
+.card3 img{
+	width:330px;
+	height:220px;
+}
+
+.card4 img{
+	width:330px;
+	height:220px;
+}
+
+
+.card5 img{
+	width:330px;
+	height:220px;
+}
+
+
+
+
+
+/*................................*/
+
+.card1 p{
+	font-size:20px;
+	font-weight:300;
+	padding:5px;
+}
+
+.card2 p{
+	font-size:20px;
+	font-weight:300;
+	padding:5px;
+}
+
+.card3 p{
+	font-size:20px;
+	font-weight:300;
+	padding:5px;
+}
+
+.card4 p{
+	font-size:20px;
+	font-weight:300;
+	padding:5px;
+}
+
+.card5 p{
+	font-size:20px;
+	font-weight:300;
+	padding:5px;
+}
+
+/*.....................*/
+
+.card1,.card2, .card3{
+	display:inline-flex;
+	margin:25px;
+	position:relative;
+	left:100px;
+	top:300px;
+
+}
+
+.card4, .card5{
+	display:inline-flex;
+	margin:25px;
+	position:relative;
+	left:100px;
+	top:350px;
+}
+
+.SOPAS{
+	color:white;
+	margin:20px;
+	top:280px;
+	position:relative;
+	font-size:40px;
+}
+
+
+
+hr{
+	margin:0;
+	top:280px;
+	position:relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+

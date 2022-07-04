@@ -1,0 +1,87 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+
+body{
+background-image:url(../imagenes/bamboo.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment:fixed;
+}
+
+
+nav ul{
+	background-color:#529634;
+	width:100%;
+	list-style-type:none;
+	text-align:center;
+	position:fixed;
+	z-index:1000;
+	top:70px;
+}
+
+nav li{
+	display:inline-flex;
+	background-attachment:fixed;
+}
+
+nav a{
+	text-decoration:none;
+	color:white;
+	padding:10px;
+	width:150px;
+	font-size:20px;
+	font-weight:bold;
+}	
+
+nav li:hover{
+	background-color:#E15A33;
+}
+
+h1{
+	text-align:center;
+	background-color:#E15A33;
+	color:white;
+	padding:20px;
+	position:fixed;
+	z-index:1000;
+	top:0;
+	width:100%;
+	font-weight:bold;
+	
+}
+
+
+img{
+	text-align: center;
+	display: block;
+	margin: 0px auto; 
+	position: relative;
+	top:40px;
+	width:800px;
+}
+
+
+.cite{
+	text-align:center;
+	color:white;
+	font-size:20px;
+	background-color:#E15A33;
+	width:97%;
+	padding:20px;
+	font-weight:bold;
+}	
+
+
+video{
+	text-align: center;
+	display: block; 
+	position: relative;
+	top:40px;
+	width:100%;
+
+}
+	
+
